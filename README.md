@@ -84,6 +84,6 @@ Contributions to this project are welcome. You can contribute by:
 - Reporting issues or suggesting improvements through GitHub Issues.
 - Forking the repository and creating pull requests for new features or bug fixes.
 
-
-![Screenshot (1097)](https://github.com/Bhasker23/Forecasto/assets/101566187/7226e712-ff17-46bb-bf0e-8d9d265694fe)
 ![Screenshot (1095)](https://github.com/Bhasker23/Forecasto/assets/101566187/6a433c3e-955a-4bbf-adc3-9cde27975a6b)
+![Screenshot (1097)](https://github.com/Bhasker23/Forecasto/assets/101566187/7226e712-ff17-46bb-bf0e-8d9d265694fe)
+
