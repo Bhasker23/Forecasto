@@ -63,11 +63,11 @@ Before running this project, make sure you have the following:
 ## Project Structure
 
 - `src/main/java`: Contains Java source code.
-  - `com.example.weatherapi`: Main package for the project.
-    - `WeatherApiApplication.java`: Main Spring Boot application class.
-    - `config`: Contains configuration classes (`WeatherApiConfig.java`).
-    - `controller`: Contains RESTful controller classes (`WeatherController.java`).
-    - `service`: Contains service classes (`WeatherApiService.java`).
+  - `com.forecasto`: Main package for the project.
+    - `ForecastoApplication.java`: Main Spring Boot application class.
+    - `ForecastoConfig`: Contains configuration classes (`WeatherApiConfig.java`).
+    - `ForecastoController`: Contains RESTful controller classes (`WeatherController.java`).
+    - `ForecastoService`: Contains service classes (`WeatherApiService.java`).
 - `src/main/resources`: Contains application properties and static resources.
   - `application.properties`: Configuration properties file.
 
@@ -84,3 +84,6 @@ Contributions to this project are welcome. You can contribute by:
 - Reporting issues or suggesting improvements through GitHub Issues.
 - Forking the repository and creating pull requests for new features or bug fixes.
 
+
+![Screenshot (1097)](https://github.com/Bhasker23/Forecasto/assets/101566187/7226e712-ff17-46bb-bf0e-8d9d265694fe)
+![Screenshot (1095)](https://github.com/Bhasker23/Forecasto/assets/101566187/6a433c3e-955a-4bbf-adc3-9cde27975a6b)
