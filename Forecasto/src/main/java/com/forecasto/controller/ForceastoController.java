@@ -2,11 +2,13 @@ package com.forecasto.controller;
 
 import com.forecasto.service.ForecastoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@CrossOrigin(origins = "*")
 public class ForceastoController {
 
     @Autowired
@@ -19,7 +21,7 @@ public class ForceastoController {
 
 
     @GetMapping("/weather/hourlySummary")
-    public String getHourlyForecast(@RequestParam Double latitude, @RequestParam Double longitude){
-        return forecastoService.RapidApiGetHourlyForecastByLocationName(latitude,longitude);
+    public String getHourlyForecast(@RequestParam  String location){
+        return forecastoService.RapidApiGetHourlyForecastByLocationName(location);
     }
 }

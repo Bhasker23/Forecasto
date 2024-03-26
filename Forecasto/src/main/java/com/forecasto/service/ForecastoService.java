@@ -5,6 +5,6 @@ public interface ForecastoService {
 
     public String RapidApiGetForecastSummaryByLocationName(String location);
 
-    public  String RapidApiGetHourlyForecastByLocationName(Double latitude, Double longitude);
+    public  String RapidApiGetHourlyForecastByLocationName(String location);
 
 }

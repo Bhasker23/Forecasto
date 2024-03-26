@@ -40,9 +40,10 @@ public class ForecastoServiceImpl implements ForecastoService{
     }
 
     @Override
-    public String RapidApiGetHourlyForecastByLocationName(Double latitude, Double longitude) {
+    public String RapidApiGetHourlyForecastByLocationName(String location) {
 
-        String url =  hourlyForecastUrl+latitude+"&lon="+longitude+"&appid="+openWeatherkey;
+        String url =  hourlyForecastUrl+location+"&appid="+openWeatherkey;
+//        String url = hourlyForecastUrl.replace("${cityName}", location);
         System.out.println(url);
         return restTemplate.getForObject(url , String.class);
     }
