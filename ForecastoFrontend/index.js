@@ -20,6 +20,7 @@ function getData() {
     .catch(function (err) {
       alert("OOPS! Something went wrong.. Ary Again");
       console.log("err :", "URl is crashed");
+      console.log(err);
     });
 }
 
@@ -37,6 +38,7 @@ function getDataLocation(lat, lon) {
     })
     .catch(function (err) {
       console.log("err :", "URl is crashed");
+      console.log(err);
     });
 }
 
